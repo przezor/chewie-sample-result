@@ -1,16 +1,16 @@
 ---
 layout: generalnav
-title: Failing Ipsum
+title: Hodor Ipsum
 ---
 
 <% collectionName = 'services' %>
 <% ifInternal = '' %>
 <% ifInternalUrl = '' %>
-<% dpServiceName = 'Failing Ipsum' %>
-<% dpServiceNameShort = 'failingipsum' %>
+<% dpServiceName = 'Additional Ipsum' %>
+<% dpServiceNameShort = 'additionalipsum' %>
 <% dpServiceVersion = 'latest' %>
 <% dpServiceVersionRAML = 'v1' %>
-<% dbServiceUri = 'https://api.yaas.io/hbo/failing-ipsum/v1' %>
+<% dbServiceUri = 'https://api.yaas.io/hbo/additional-ipsum/v1' %>
 
 <% rnCollectionName = 'releaseNotes' %>
 <% ifInternalUrlOther = '' %>
