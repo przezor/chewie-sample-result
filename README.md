@@ -1,2 +1,2 @@
 # chewie-sample-result
-Sample Results for chewie repository.
+Sample Results for chewie repository CI
