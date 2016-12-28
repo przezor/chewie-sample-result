@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>Release Notes | YaaS Dev Portal</title>
-	<link href="http://testing-docker-9b3dee70-28f1-45bb-8eca-3edbde554d96:9778/atom.xml" rel="self"/>
-	<link href="http://testing-docker-9b3dee70-28f1-45bb-8eca-3edbde554d96:9778"/>
-	<updated>2016-12-28T13:30:12.064Z</updated>
-	<id>http://testing-docker-9b3dee70-28f1-45bb-8eca-3edbde554d96:9778/</id>
+	<link href="http://testing-docker-8b9d6fc3-a342-4169-8e91-211f3a6904b9:9778/atom.xml" rel="self"/>
+	<link href="http://testing-docker-8b9d6fc3-a342-4169-8e91-211f3a6904b9:9778"/>
+	<updated>2016-12-28T13:33:25.574Z</updated>
+	<id>http://testing-docker-8b9d6fc3-a342-4169-8e91-211f3a6904b9:9778/</id>
 	<author>
 		<name></name>
 	</author>
@@ -13,43 +13,43 @@
 
 		<entry>
 			<title>Hodor Ipsum v1</title>
-			<link href="http://testing-docker-9b3dee70-28f1-45bb-8eca-3edbde554d96:9778/rn/services/hodoripsum/latest/972-06-24-Cedynia.html"/>
+			<link href="http://testing-docker-8b9d6fc3-a342-4169-8e91-211f3a6904b9:9778/rn/services/hodoripsum/latest/972-06-24-Cedynia.html"/>
 			<content type="html">&lt;p&gt;&lt;img src=&quot;img/hodor.png&quot; alt=&quot;Hodor&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Hodor, hodor. Hodor. Hodor, hodor - hodor... Hodor hodor hodor, hodor. Hodor hodor. Hodor. Hodor, hodor hodor... Hodor hodor hodor. Hodor, hodor... Hodor hodor hodor hodor hodor hodor hodor? Hodor hodor HODOR! Hodor hodor hodor... Hodor hodor hodor... Hodor hodor hodor? Hodor, hodor. Hodor. Hodor, hodor, hodor. Hodor hodor - hodor - hodor. Hodor hodor, hodor. Hodor hodor, hodor, hodor hodor.&lt;/p&gt;
 </content>
 			<updated>0972-06-24T00:00:00.000Z</updated>
-			<id>http://testing-docker-9b3dee70-28f1-45bb-8eca-3edbde554d96:9778/rn/services/hodoripsum/latest/972-06-24-Cedynia.html</id>
+			<id>http://testing-docker-8b9d6fc3-a342-4169-8e91-211f3a6904b9:9778/rn/services/hodoripsum/latest/972-06-24-Cedynia.html</id>
 		</entry>
 		
 	
 
 		<entry>
 			<title>Zombie Ipsum v1</title>
-			<link href="http://testing-docker-9b3dee70-28f1-45bb-8eca-3edbde554d96:9778/rn/services/zombieipsum/latest/1683-10-07-Parkany.html"/>
+			<link href="http://testing-docker-8b9d6fc3-a342-4169-8e91-211f3a6904b9:9778/rn/services/zombieipsum/latest/1683-10-07-Parkany.html"/>
 			<content type="html">&lt;p&gt;&lt;img src=&quot;img/zombie.gif&quot; alt=&quot;Zombie&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Qui animated corpse, cricket bat max brucks terribilem incessu zomby. The voodoo sacerdos flesh eater, suscitat mortuos comedere carnem virus. Zonbi tattered for solum oculi eorum defunctis go lum cerebro. Nescio brains an Undead zombies. Sicut malus putrid voodoo horror. Nigh tofth eliv ingdead.&lt;/p&gt;
 </content>
 			<updated>1683-10-07T00:00:00.000Z</updated>
-			<id>http://testing-docker-9b3dee70-28f1-45bb-8eca-3edbde554d96:9778/rn/services/zombieipsum/latest/1683-10-07-Parkany.html</id>
+			<id>http://testing-docker-8b9d6fc3-a342-4169-8e91-211f3a6904b9:9778/rn/services/zombieipsum/latest/1683-10-07-Parkany.html</id>
 		</entry>
 		
 	
 
 		<entry>
 			<title>Samuel L Ipsum v2</title>
-			<link href="http://testing-docker-9b3dee70-28f1-45bb-8eca-3edbde554d96:9778/rn/services/samuellipsum/latest/1605-09-27-Kircholm.html"/>
+			<link href="http://testing-docker-8b9d6fc3-a342-4169-8e91-211f3a6904b9:9778/rn/services/samuellipsum/latest/1605-09-27-Kircholm.html"/>
 			<content type="html">&lt;p&gt;&lt;img src=&quot;img/pulp.png&quot; alt=&quot;Pulp&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Well, the way they make shows is, they make one show. That show&amp;#39;s called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they&amp;#39;re going to make more shows. <span class="u-help-label" data-toggle="tooltip" data-placement="top" title="Samuel L. Jackson is an American actor and film producer.">Samuel</span> gets picked and become television programs. Some don&amp;#39;t, become nothing. She starred in one of the ones that became nothing.&lt;/p&gt;
 </content>
 			<updated>1605-09-27T00:00:00.000Z</updated>
-			<id>http://testing-docker-9b3dee70-28f1-45bb-8eca-3edbde554d96:9778/rn/services/samuellipsum/latest/1605-09-27-Kircholm.html</id>
+			<id>http://testing-docker-8b9d6fc3-a342-4169-8e91-211f3a6904b9:9778/rn/services/samuellipsum/latest/1605-09-27-Kircholm.html</id>
 		</entry>
 		
 	
 
 		<entry>
 			<title>Batman Ipsum v2</title>
-			<link href="http://testing-docker-9b3dee70-28f1-45bb-8eca-3edbde554d96:9778/rn/services/batmanipsum/latest/1410-07-15-Grunwald.html"/>
+			<link href="http://testing-docker-8b9d6fc3-a342-4169-8e91-211f3a6904b9:9778/rn/services/batmanipsum/latest/1410-07-15-Grunwald.html"/>
 			<content type="html">&lt;p&gt;If you can tell me the Russian for &amp;quot;apply your own bloody suntan lotion.&amp;quot;&lt;/p&gt;
 &lt;p&gt;Are you so desperate to fight criminals that you lock yourself in to take them on one at a time ?&lt;/p&gt;
 &lt;p&gt;You have learn to bury your guilt with anger. I will teach you to confront it and to face the truth.&lt;/p&gt;
@@ -66,7 +66,7 @@
 &lt;p&gt;It means you&amp;#39;re hatred, and it also means losing someone, who I&amp;#39;ve cared for since I first heard his cries echoing through this house. But it might also mean saving your life. And that is more important.&lt;/p&gt;
 </content>
 			<updated>1410-07-15T00:00:00.000Z</updated>
-			<id>http://testing-docker-9b3dee70-28f1-45bb-8eca-3edbde554d96:9778/rn/services/batmanipsum/latest/1410-07-15-Grunwald.html</id>
+			<id>http://testing-docker-8b9d6fc3-a342-4169-8e91-211f3a6904b9:9778/rn/services/batmanipsum/latest/1410-07-15-Grunwald.html</id>
 		</entry>
 		
 	
