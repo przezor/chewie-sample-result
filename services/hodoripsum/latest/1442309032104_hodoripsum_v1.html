@@ -1,94 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-
-    <!-- Meta -->
-    <meta charset="utf-8" />
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-
-    <!-- Use the .htaccess and remove these lines to avoid edge case issues. More info: h5bp.com/i/378 -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-
-    <!-- Our site title and description -->
-    <title>Perform Simple CRUD Operations | Simple API Docs Skeleton</title>
-    <meta name="description" content="Skeleton for your API Documentation" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="" />
-
-    <!-- Output DocPad produced meta elements -->
-    <meta name="generator" content="DocPad v6.78.6" />
-
-    <!-- Mobile viewport optimized: h5bp.com/viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="alternate" type="application/rss+xml" title="DevPortal Blog!"  href="http://yaas.github.io/chewie-sample-result/atom.xml"  />
-      <!-- favicons -->
-      <link rel="apple-touch-icon" sizes="57x57" href="http://testing-docker-5bb1c36c-f137-43df-978d-f1844ea87c43:9778/images/favicon/apple-touch-icon-57x57.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="http://testing-docker-5bb1c36c-f137-43df-978d-f1844ea87c43:9778/images/favicon/apple-touch-icon-114x114.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="http://testing-docker-5bb1c36c-f137-43df-978d-f1844ea87c43:9778/images/favicon/apple-touch-icon-72x72.png">
-      <link rel="apple-touch-icon" sizes="144x144" href="http://testing-docker-5bb1c36c-f137-43df-978d-f1844ea87c43:9778/images/favicon/apple-touch-icon-144x144.png">
-      <link rel="apple-touch-icon" sizes="60x60" href="http://testing-docker-5bb1c36c-f137-43df-978d-f1844ea87c43:9778/images/favicon/apple-touch-icon-60x60.png">
-      <link rel="apple-touch-icon" sizes="120x120" href="http://testing-docker-5bb1c36c-f137-43df-978d-f1844ea87c43:9778/images/favicon/apple-touch-icon-120x120.png">
-      <link rel="apple-touch-icon" sizes="76x76" href="http://testing-docker-5bb1c36c-f137-43df-978d-f1844ea87c43:9778/images/favicon/apple-touch-icon-76x76.png">
-      <link rel="apple-touch-icon" sizes="152x152" href="http://testing-docker-5bb1c36c-f137-43df-978d-f1844ea87c43:9778/images/favicon/apple-touch-icon-152x152.png">
-      <link rel="apple-touch-icon" sizes="180x180" href="http://testing-docker-5bb1c36c-f137-43df-978d-f1844ea87c43:9778/images/favicon/apple-touch-icon-180x180.png">
-      <link rel="icon" type="image/png" href="http://testing-docker-5bb1c36c-f137-43df-978d-f1844ea87c43:9778/images/favicon/favicon-192x192.png" sizes="192x192">
-      <link rel="icon" type="image/png" href="http://testing-docker-5bb1c36c-f137-43df-978d-f1844ea87c43:9778/images/favicon/favicon-160x160.png" sizes="160x160">
-      <link rel="icon" type="image/png" href="http://testing-docker-5bb1c36c-f137-43df-978d-f1844ea87c43:9778/images/favicon/favicon-96x96.png" sizes="96x96">
-      <link rel="icon" type="image/png" href="http://testing-docker-5bb1c36c-f137-43df-978d-f1844ea87c43:9778/images/favicon/favicon-16x16.png" sizes="16x16">
-      <link rel="icon" type="image/png" href="http://testing-docker-5bb1c36c-f137-43df-978d-f1844ea87c43:9778/images/favicon/favicon-32x32.png" sizes="32x32">
-      <meta name="msapplication-TileColor" content="#da532c">
-      <meta name="msapplication-TileImage" content="http://testing-docker-5bb1c36c-f137-43df-978d-f1844ea87c43:9778/images/favicon//mstile-144x144.png">
-
-    <!-- Shims: IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
+<!DOCTYPE html><html lang="en"><head><!-- Meta --><meta charset="utf-8"><meta http-equiv="content-type" content="text/html; charset=utf-8"><!-- Use the .htaccess and remove these lines to avoid edge case issues. More info: h5bp.com/i/378 --><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><!-- Our site title and description --><title>Perform Simple CRUD Operations | Simple API Docs Skeleton</title><meta name="description" content="Skeleton for your API Documentation"><meta name="keywords" content=""><meta name="author" content=""><!-- Output DocPad produced meta elements --><meta name="generator" content="DocPad v6.78.6"><!-- Mobile viewport optimized: h5bp.com/viewport --><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="alternate" type="application/rss+xml" title="DevPortal Blog!" href="http://yaas.github.io/chewie-sample-resultatom.xml"><!-- favicons --><link rel="apple-touch-icon" sizes="57x57" href="http://testing-docker-f6b3274e-06e8-475d-a3b0-17cfd5b4edb8:9778/images/favicon/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="114x114" href="http://testing-docker-f6b3274e-06e8-475d-a3b0-17cfd5b4edb8:9778/images/favicon/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="72x72" href="http://testing-docker-f6b3274e-06e8-475d-a3b0-17cfd5b4edb8:9778/images/favicon/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="144x144" href="http://testing-docker-f6b3274e-06e8-475d-a3b0-17cfd5b4edb8:9778/images/favicon/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="60x60" href="http://testing-docker-f6b3274e-06e8-475d-a3b0-17cfd5b4edb8:9778/images/favicon/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="120x120" href="http://testing-docker-f6b3274e-06e8-475d-a3b0-17cfd5b4edb8:9778/images/favicon/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="76x76" href="http://testing-docker-f6b3274e-06e8-475d-a3b0-17cfd5b4edb8:9778/images/favicon/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="152x152" href="http://testing-docker-f6b3274e-06e8-475d-a3b0-17cfd5b4edb8:9778/images/favicon/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="http://testing-docker-f6b3274e-06e8-475d-a3b0-17cfd5b4edb8:9778/images/favicon/apple-touch-icon-180x180.png"><link rel="icon" type="image/png" href="http://testing-docker-f6b3274e-06e8-475d-a3b0-17cfd5b4edb8:9778/images/favicon/favicon-192x192.png" sizes="192x192"><link rel="icon" type="image/png" href="http://testing-docker-f6b3274e-06e8-475d-a3b0-17cfd5b4edb8:9778/images/favicon/favicon-160x160.png" sizes="160x160"><link rel="icon" type="image/png" href="http://testing-docker-f6b3274e-06e8-475d-a3b0-17cfd5b4edb8:9778/images/favicon/favicon-96x96.png" sizes="96x96"><link rel="icon" type="image/png" href="http://testing-docker-f6b3274e-06e8-475d-a3b0-17cfd5b4edb8:9778/images/favicon/favicon-16x16.png" sizes="16x16"><link rel="icon" type="image/png" href="http://testing-docker-f6b3274e-06e8-475d-a3b0-17cfd5b4edb8:9778/images/favicon/favicon-32x32.png" sizes="32x32"><meta name="msapplication-TileColor" content="#da532c"><meta name="msapplication-TileImage" content="http://testing-docker-f6b3274e-06e8-475d-a3b0-17cfd5b4edb8:9778/images/favicon//mstile-144x144.png"><!-- Shims: IE6-8 support of HTML5 elements --><!--[if lt IE 9]>
       <script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-
-    <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="https://www.yaas.io/globalresources/v3/css/global.min.css" media="screen, projection, print">
-    <link  rel="stylesheet" href="http://yaas.github.io/chewie-sample-result/styles/devportal-yaas.css" />
-
-    <!-- header scripts  -->
-    
-      <script src="http://yaas.github.io/chewie-sample-result/scripts/devportal-yaas-head.min.js"></script>
-    
-    <script src="https://www.yaas.io/globalresources/v3/js/global.novendor.min.js"></script>
-
-
-
-  </head>
-
-  <body class=" ">
-
-    <!-- Content -->
-    <div class="main-content">
-  <section class="row-offcanvas row-offcanvas-left">
-
-    <header class="navbar-super-holder">
-      
-
-      <div class="navbar navbar-inverse mobile-nav">
-
-        <button data-toggle="offcanvas" class="btn btn-primary btn-xs navbar-toggle navbar-btn" type="button">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-
-        <ul role="menu" class="nav nav-pills hidden-xs" id="desktop-menu">
-          <li> <a href="http://yaas.github.io/chewie-sample-result/" property="dc:title" id="home-topNav">Home</a></li>
-          <li> <a href="http://yaas.github.io/chewie-sample-result/solutions/" property="dc:title" id="solutions-topNav">Solutions</a></li>
-          <li> <a href="http://yaas.github.io/chewie-sample-result/services/" property="dc:title" id="apis-topNav">API Docs</a></li>
-          <li> <a href="http://yaas.github.io/chewie-sample-result/rn/" property="dc:title">Release Notes</a></li>
-        </ul>
-
-      
-      <script>
-
-        (function(){
+    <![endif]--><!-- Styles --><link rel="stylesheet" type="text/css" href="https://www.yaas.io/globalresources/v3/css/global.min.css" media="screen, projection, print"><link rel="stylesheet" href="http://yaas.github.io/chewie-sample-resultstyles/devportal-yaas.css"><!-- header scripts  --><script src="http://yaas.github.io/chewie-sample-result/scripts/devportal-yaas-head.min.js"></script><script src="https://www.yaas.io/globalresources/v3/js/global.novendor.min.js"></script></head><body class=""><!-- Content --><div class="main-content"><section class="row-offcanvas row-offcanvas-left"><header class="navbar-super-holder"><div class="navbar navbar-inverse mobile-nav"><button data-toggle="offcanvas" class="btn btn-primary btn-xs navbar-toggle navbar-btn" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button><ul role="menu" class="nav nav-pills hidden-xs" id="desktop-menu"><li><a href="http://yaas.github.io/chewie-sample-result" property="dc:title" id="home-topNav">Home</a></li><li><a href="http://yaas.github.io/chewie-sample-resultsolutions/" property="dc:title" id="solutions-topNav">Solutions</a></li><li><a href="http://yaas.github.io/chewie-sample-resultservices/" property="dc:title" id="apis-topNav">API Docs</a></li><li><a href="http://yaas.github.io/chewie-sample-resultrn/" property="dc:title">Release Notes</a></li></ul><script>(function(){
           $(document).ready(function(){
             var lunr = ['/lunr/lunr-data-myindex.json'];
             var scriptsArray = ['/lunr/lunr-ui.min.js', '/lunr/lunr.min.js'];
@@ -146,191 +58,19 @@
               return $.when.apply($, _arr);
             }
           });
-        })();
-
-
-      </script>
-
-      <div class="navbar-right">
-
-        <div class="search-wrapper">
-          <input type="text" class="search-bar" id="lunr-input" autocomplete="on" placeholder="Search terms" /><input type="hidden" id="lunr-hidden" />
-          <img src="http://yaas.github.io/chewie-sample-result/images/icons/close-button.svg" alt="" class="close-button">
-        </div>
-
-      </div>
-
-    </div>
-
-  </header>
-
-  <div class="content-offcanvas" id="content">
-
-    <div class="container-fluid">
-      
-
-
-
-  <div id="sidebar" class="sidebar-offcanvas" role="navigation" >
-
-    <div class="api-nav api-nav-landing left-nav" id="left_nav">
-
-      
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-
-      
-
-        <!-- list of services -->
-
-        
-
-        <ul>
-          <li class="back-link visible-xs"><a href="http://yaas.github.io/chewie-sample-result/"> Back to Home</a></li>
-          <li class="nav-header">API Docs</li>
-          <li><br>
-            <select name="" id="singlePackageFilterList" class="form-control api-package-filter">
-              <option value="all packages">All Packages</option>
-              
-                <option value="movies">Movies</option>
-              
-                <option value="walkers">Walkers</option>
-              
-            </select>
-          </li>
-          <li>
-            <div class="api-filter-input-wrapper">
-              <input placeholder="Filter by Keyword" id="apiFilterInput" type="text" class="form-control api-filter-input"/>
-              <img src="http://yaas.github.io/chewie-sample-result/images/icons/close-button.svg" alt="" class="clear-api-input">
-            </div>
-          </li>
-          
-          <li class="single-packages">
-
-            <span class="package-header">Movies</span>
-
-            <ul role="menu" class="nav nav-pills nav-stacked apiList">
-
-              
-                
-              
-                
-              
-                
-                  <li class="apis">
-                    <a href="http://yaas.github.io/chewie-sample-result/services/samuellipsum/latest/index.html" property="dc:title" data-builder-identifier="undefined" class="api-link">Samuel L Ipsum</a>
-                  </li>
-                
-              
-                
-                  <li class="apis">
-                    <a href="http://yaas.github.io/chewie-sample-result/services/batmanipsum/latest/index.html" property="dc:title" data-builder-identifier="batman-ipsum" class="api-link">Batman Ipsum</a>
-                  </li>
-                
-              
-
-            </ul>
-          </li>
-          
-          <li class="single-packages">
-
-            <span class="package-header">Walkers</span>
-
-            <ul role="menu" class="nav nav-pills nav-stacked apiList">
-
-              
-                
-                  <li class="apis">
-                    <a href="http://yaas.github.io/chewie-sample-result/services/zombieipsum/latest/index.html" property="dc:title" data-builder-identifier="zombie-ipsum" class="api-link">Zombie Ipsum</a>
-                  </li>
-                
-              
-                
-                  <li class="apis">
-                    <a href="http://yaas.github.io/chewie-sample-result/services/hodoripsum/latest/index.html" property="dc:title" data-builder-identifier="hodor-ipsum" class="api-link">Hodor Ipsum</a>
-                  </li>
-                
-              
-
-            </ul>
-          </li>
-          
-
-
-        </ul>
-
-        <!-- end list of services  -->
-
-      
-
-      <span class="noResultsApi">No results found </span>
-
-    </div>
-
-
-  </div>
-
-  <div class="container-fluid">
-    <div class="container-wrapper has-nav">
-
-
-      
-
-      <div class="jumbotron search-header">
-
-        <h1>Search Result</h1>
-
-          <a href="http://yaas.github.io/chewie-sample-result/services/hodoripsum/latest/index.html" class="small"><span class="glyphicon glyphicon-play glyphicon-flipped"></span>READ FULL <strong>DOCUMENT</strong> DOCUMENTATION </a>
-
-      </div>
-
-      <div class="search-content">
-        <h1>Perform Simple CRUD Operations</h1>
-        
-
-
-
-
-
-<div class="notebook" id="staticInteractive1442309032104_hodoripsum_v1">
-
-  <div class="notebook__static-tutorial" data-tutorial="1442309032104_hodoripsum_v1" data-is-quick-setup="true" data-link="http://testing-docker-5bb1c36c-f137-43df-978d-f1844ea87c43:9778/build/embedded.html#1442309032104_hodoripsum_v1">
-   
-   
-   <h3 id="get-access-token">Get access token</h3>
-<p>To perform any operations with specific service, you always need an access token. For this purpose create an API Client for oAuth2 service.</p>
-<pre class="highlight"><code class="hljs javascript">API.createClient(<span class="hljs-string">'oAuth2Service'</span>,
+        })();</script><div class="navbar-right"><div class="search-wrapper"><input type="text" class="search-bar" id="lunr-input" autocomplete="on" placeholder="Search terms"><input type="hidden" id="lunr-hidden"> <img src="http://yaas.github.io/chewie-sample-result/images/icons/close-button.svg" alt="" class="close-button"></div></div></div></header><div class="content-offcanvas" id="content"><div class="container-fluid"><div id="sidebar" class="sidebar-offcanvas" role="navigation"><div class="api-nav api-nav-landing left-nav" id="left_nav"><!-- list of services --><ul><li class="back-link visible-xs"><a href="http://yaas.github.io/chewie-sample-result">Back to Home</a></li><li class="nav-header">API Docs</li><li><br><select name="" id="singlePackageFilterList" class="form-control api-package-filter"><option value="all packages">All Packages</option><option value="movies">Movies</option><option value="walkers">Walkers</option></select></li><li><div class="api-filter-input-wrapper"><input placeholder="Filter by Keyword" id="apiFilterInput" type="text" class="form-control api-filter-input"> <img src="http://yaas.github.io/chewie-sample-result/images/icons/close-button.svg" alt="" class="clear-api-input"></div></li><li class="single-packages"><span class="package-header">Movies</span><ul role="menu" class="nav nav-pills nav-stacked apiList"><li class="apis"><a href="http://yaas.github.io/chewie-sample-resultservices/samuellipsum/latest/index.html" property="dc:title" data-builder-identifier="undefined" class="api-link">Samuel L Ipsum</a></li><li class="apis"><a href="http://yaas.github.io/chewie-sample-resultservices/batmanipsum/latest/index.html" property="dc:title" data-builder-identifier="batman-ipsum" class="api-link">Batman Ipsum</a></li></ul></li><li class="single-packages"><span class="package-header">Walkers</span><ul role="menu" class="nav nav-pills nav-stacked apiList"><li class="apis"><a href="http://yaas.github.io/chewie-sample-resultservices/zombieipsum/latest/index.html" property="dc:title" data-builder-identifier="zombie-ipsum" class="api-link">Zombie Ipsum</a></li><li class="apis"><a href="http://yaas.github.io/chewie-sample-resultservices/hodoripsum/latest/index.html" property="dc:title" data-builder-identifier="hodor-ipsum" class="api-link">Hodor Ipsum</a></li></ul></li></ul><!-- end list of services  --> <span class="noResultsApi">No results found</span></div></div><div class="container-fluid"><div class="container-wrapper has-nav"><div class="jumbotron search-header"><h1>Search Result</h1><a href="http://yaas.github.io/chewie-sample-resultservices/hodoripsum/latest/index.html" class="small"><span class="glyphicon glyphicon-play glyphicon-flipped"></span>READ FULL <strong>DOCUMENT</strong> DOCUMENTATION</a></div><div class="search-content"><h1>Perform Simple CRUD Operations</h1><div class="notebook" id="staticInteractive1442309032104_hodoripsum_v1"><div class="notebook__static-tutorial" data-tutorial="1442309032104_hodoripsum_v1" data-is-quick-setup="true" data-link="http://testing-docker-f6b3274e-06e8-475d-a3b0-17cfd5b4edb8:9778/build/embedded.html#1442309032104_hodoripsum_v1"><h3 id="get-access-token">Get access token</h3><p>To perform any operations with specific service, you always need an access token. For this purpose create an API Client for oAuth2 service.</p><pre class="highlight"><code class="hljs javascript">API.createClient(<span class="hljs-string">'oAuth2Service'</span>,
 <span class="hljs-string">'https://devportal.yaas.io/services/oauth2/b1/api.raml'</span>);
-</code></pre>
-<p>Now get the token:</p>
-<pre class="highlight"><code class="hljs javascript">AccessToken = oAuth2Service.token.post({
+</code></pre><p>Now get the token:</p><pre class="highlight"><code class="hljs javascript">AccessToken = oAuth2Service.token.post({
   <span class="hljs-string">'client_id'</span> : <span class="hljs-string">'en7kp4cbjgA2TuuihU3MxCEShMx5xaEF'</span>,
   <span class="hljs-string">'client_secret'</span>:<span class="hljs-string">'63gNfrpSnQWKQXEO'</span>,
   <span class="hljs-string">'grant_type'</span> : <span class="hljs-string">'client_credentials'</span>,
     <span class="hljs-string">'token_type'</span>: <span class="hljs-string">'Bearer'</span>,
   <span class="hljs-string">'scope'</span>: <span class="hljs-string">'hybris.tenant hybris.document_manage hybris.document_view'</span>
 });
-</code></pre>
-<p>To make calls simpler and code cleaner, assign Id of returned object to a variable.</p>
-<pre class="highlight"><code class="hljs javascript">access_token = AccessToken.body.access_token;
-</code></pre>
-<h3 id="create-api-client-for-document-service">Create API client for Document service</h3>
-<pre class="highlight"><code class="hljs javascript">API.createClient(<span class="hljs-string">'documentService'</span>,
+</code></pre><p>To make calls simpler and code cleaner, assign Id of returned object to a variable.</p><pre class="highlight"><code class="hljs javascript">access_token = AccessToken.body.access_token;
+</code></pre><h3 id="create-api-client-for-document-service">Create API client for Document service</h3><pre class="highlight"><code class="hljs javascript">API.createClient(<span class="hljs-string">'documentService'</span>,
 <span class="hljs-string">'https://devportal.yaas.io/services/document/b2/api.raml'</span>);
-</code></pre>
-<h3 id="create-a-simple-object">Create a simple object</h3>
-<pre class="highlight"><code class="hljs javascript">comic_obj = documentService.tenant(<span class="hljs-string">'itutorials'</span>).client(<span class="hljs-string">'hybris.itutorials'</span>).data.type(<span class="hljs-string">'comic'</span>).post({
+</code></pre><h3 id="create-a-simple-object">Create a simple object</h3><pre class="highlight"><code class="hljs javascript">comic_obj = documentService.tenant(<span class="hljs-string">'itutorials'</span>).client(<span class="hljs-string">'hybris.itutorials'</span>).data.type(<span class="hljs-string">'comic'</span>).post({
 <span class="hljs-string">'kind'</span>: <span class="hljs-string">'History'</span>,
 <span class="hljs-string">'name'</span>: <span class="hljs-string">'Thorgal'</span>
 }, {
@@ -340,22 +80,15 @@
            }
         }
   )
-</code></pre>
-<p>To make calls simpler and code cleaner, assign Id of returned object to a variable.</p>
-<pre class="highlight"><code class="hljs javascript">id = comic_obj.body.id;
-</code></pre>
-<h3 id="retrieve-object-created-with-the-previous-step">Retrieve object created with the previous step</h3>
-<pre class="highlight"><code class="hljs javascript">documentService.tenant(<span class="hljs-string">'itutorials'</span>).client(<span class="hljs-string">'hybris.itutorials'</span>).data.type(<span class="hljs-string">'comic'</span>).dataId(id).get(<span class="hljs-literal">null</span>, {
+</code></pre><p>To make calls simpler and code cleaner, assign Id of returned object to a variable.</p><pre class="highlight"><code class="hljs javascript">id = comic_obj.body.id;
+</code></pre><h3 id="retrieve-object-created-with-the-previous-step">Retrieve object created with the previous step</h3><pre class="highlight"><code class="hljs javascript">documentService.tenant(<span class="hljs-string">'itutorials'</span>).client(<span class="hljs-string">'hybris.itutorials'</span>).data.type(<span class="hljs-string">'comic'</span>).dataId(id).get(<span class="hljs-literal">null</span>, {
   headers: {
     <span class="hljs-string">'Authorization'</span>: <span class="hljs-string">'Bearer '</span> + access_token,
     <span class="hljs-string">'Content-type'</span> : <span class="hljs-string">'application/json'</span>
            }
         }
   )
-</code></pre>
-<h3 id="update-an-object-with-additional-information">Update an object with additional information</h3>
-<p>Perform a partial update on the object:</p>
-<pre class="highlight"><code class="hljs javascript">documentService.tenant(<span class="hljs-string">'itutorials'</span>).client(<span class="hljs-string">'hybris.itutorials'</span>).data.type(<span class="hljs-string">'comic'</span>).dataId(id).put({
+</code></pre><h3 id="update-an-object-with-additional-information">Update an object with additional information</h3><p>Perform a partial update on the object:</p><pre class="highlight"><code class="hljs javascript">documentService.tenant(<span class="hljs-string">'itutorials'</span>).client(<span class="hljs-string">'hybris.itutorials'</span>).data.type(<span class="hljs-string">'comic'</span>).dataId(id).put({
  <span class="hljs-string">'title'</span>: <span class="hljs-string">'Child of the Stars'</span>
 }, {
   headers: {
@@ -366,20 +99,14 @@
       <span class="hljs-string">'partial'</span> : <span class="hljs-literal">true</span>
   }
 })
-</code></pre>
-<h3 id="retrieve-the-same-object-to-ensure-that-proper-information-is-updated">Retrieve the same object to ensure that proper information is updated</h3>
-<p>Get the object to make sure that it was updated. You can be sure it was as the <strong>modifiedAt</strong> date is also updated.</p>
-<pre class="highlight"><code class="hljs javascript">documentService.tenant(<span class="hljs-string">'itutorials'</span>).client(<span class="hljs-string">'hybris.itutorials'</span>).data.type(<span class="hljs-string">'comic'</span>).dataId(id).get(<span class="hljs-literal">null</span>, {
+</code></pre><h3 id="retrieve-the-same-object-to-ensure-that-proper-information-is-updated">Retrieve the same object to ensure that proper information is updated</h3><p>Get the object to make sure that it was updated. You can be sure it was as the <strong>modifiedAt</strong> date is also updated.</p><pre class="highlight"><code class="hljs javascript">documentService.tenant(<span class="hljs-string">'itutorials'</span>).client(<span class="hljs-string">'hybris.itutorials'</span>).data.type(<span class="hljs-string">'comic'</span>).dataId(id).get(<span class="hljs-literal">null</span>, {
   headers: {
     <span class="hljs-string">'Authorization'</span>: <span class="hljs-string">'Bearer '</span> + access_token,
     <span class="hljs-string">'Content-type'</span> : <span class="hljs-string">'application/json'</span>
            }
         }
   )
-</code></pre>
-<h3 id="update-entire-object-with-new-information">Update entire object with new information</h3>
-<p>Now perform full update of the object:</p>
-<pre class="highlight"><code class="hljs javascript">documentService.tenant(<span class="hljs-string">'itutorials'</span>).client(<span class="hljs-string">'hybris.itutorials'</span>).data.type(<span class="hljs-string">'comic'</span>).dataId(id).put({
+</code></pre><h3 id="update-entire-object-with-new-information">Update entire object with new information</h3><p>Now perform full update of the object:</p><pre class="highlight"><code class="hljs javascript">documentService.tenant(<span class="hljs-string">'itutorials'</span>).client(<span class="hljs-string">'hybris.itutorials'</span>).data.type(<span class="hljs-string">'comic'</span>).dataId(id).put({
   <span class="hljs-string">'name'</span>: <span class="hljs-string">'Thorgal'</span>,
   <span class="hljs-string">'title'</span>: <span class="hljs-string">'The Brand of the Exiles'</span>,
   <span class="hljs-string">'kind'</span>: <span class="hljs-string">'History'</span>
@@ -389,41 +116,31 @@
     <span class="hljs-string">'Content-type'</span> : <span class="hljs-string">'application/json'</span>
   }
 })
-</code></pre>
-<h3 id="retrieve-the-same-object-to-ensure-proper-information-is-replaced">Retrieve the same object to ensure proper information is replaced</h3>
-<pre class="highlight"><code class="hljs javascript">documentService.tenant(<span class="hljs-string">'itutorials'</span>).client(<span class="hljs-string">'hybris.itutorials'</span>).data.type(<span class="hljs-string">'comic'</span>).dataId(id).get(<span class="hljs-literal">null</span>, {
+</code></pre><h3 id="retrieve-the-same-object-to-ensure-proper-information-is-replaced">Retrieve the same object to ensure proper information is replaced</h3><pre class="highlight"><code class="hljs javascript">documentService.tenant(<span class="hljs-string">'itutorials'</span>).client(<span class="hljs-string">'hybris.itutorials'</span>).data.type(<span class="hljs-string">'comic'</span>).dataId(id).get(<span class="hljs-literal">null</span>, {
   headers: {
     <span class="hljs-string">'Authorization'</span>: <span class="hljs-string">'Bearer '</span> + access_token,
     <span class="hljs-string">'Content-type'</span> : <span class="hljs-string">'application/json'</span>
            }
         }
   )
-</code></pre>
-<h3 id="remove-a-single-attribute-from-an-object">Remove a single attribute from an object</h3>
-<pre class="highlight"><code class="hljs javascript">documentService.tenant(<span class="hljs-string">'itutorials'</span>).client(<span class="hljs-string">'hybris.itutorials'</span>).data.type(<span class="hljs-string">'comic'</span>).dataId(id).attributeName(<span class="hljs-string">'name'</span>).delete(<span class="hljs-literal">null</span>, {
+</code></pre><h3 id="remove-a-single-attribute-from-an-object">Remove a single attribute from an object</h3><pre class="highlight"><code class="hljs javascript">documentService.tenant(<span class="hljs-string">'itutorials'</span>).client(<span class="hljs-string">'hybris.itutorials'</span>).data.type(<span class="hljs-string">'comic'</span>).dataId(id).attributeName(<span class="hljs-string">'name'</span>).delete(<span class="hljs-literal">null</span>, {
     headers: {
    <span class="hljs-string">'Authorization'</span>: <span class="hljs-string">'Bearer '</span> + access_token,
   }
 })
-</code></pre>
-<h3 id="remove-an-entire-object">Remove an Entire Object</h3>
-<pre class="highlight"><code class="hljs javascript">documentService.tenant(<span class="hljs-string">'itutorials'</span>).client(<span class="hljs-string">'hybris.itutorials'</span>).data.type(<span class="hljs-string">'comic'</span>).dataId(id).delete(<span class="hljs-literal">null</span>, {
+</code></pre><h3 id="remove-an-entire-object">Remove an Entire Object</h3><pre class="highlight"><code class="hljs javascript">documentService.tenant(<span class="hljs-string">'itutorials'</span>).client(<span class="hljs-string">'hybris.itutorials'</span>).data.type(<span class="hljs-string">'comic'</span>).dataId(id).delete(<span class="hljs-literal">null</span>, {
     headers: {
    <span class="hljs-string">'Authorization'</span>: <span class="hljs-string">'Bearer '</span> + access_token,
   }
 })
-</code></pre>
-<h3 id="retrieve-a-deleted-object-to-ensure-it-is-really-deleted">Retrieve a deleted object to ensure it is really deleted</h3>
-<pre class="highlight"><code class="hljs javascript">documentService.tenant(<span class="hljs-string">'itutorials'</span>).client(<span class="hljs-string">'hybris.itutorials'</span>).data.type(<span class="hljs-string">'comic'</span>).dataId(id).get(<span class="hljs-literal">null</span>, {
+</code></pre><h3 id="retrieve-a-deleted-object-to-ensure-it-is-really-deleted">Retrieve a deleted object to ensure it is really deleted</h3><pre class="highlight"><code class="hljs javascript">documentService.tenant(<span class="hljs-string">'itutorials'</span>).client(<span class="hljs-string">'hybris.itutorials'</span>).data.type(<span class="hljs-string">'comic'</span>).dataId(id).get(<span class="hljs-literal">null</span>, {
   headers: {
     <span class="hljs-string">'Authorization'</span>: <span class="hljs-string">'Bearer '</span> + access_token,
     <span class="hljs-string">'Content-type'</span> : <span class="hljs-string">'application/json'</span>
            }
         }
   )
-</code></pre>
-<h3 id="create-a-simple-object-with-the-custom-id">Create a simple object with the custom ID</h3>
-<pre class="highlight"><code class="hljs javascript">documentService.tenant(<span class="hljs-string">'itutorials'</span>).client(<span class="hljs-string">'hybris.itutorials'</span>).data.type(<span class="hljs-string">'comic'</span>).dataId(<span class="hljs-string">'sampleId'</span>).post({
+</code></pre><h3 id="create-a-simple-object-with-the-custom-id">Create a simple object with the custom ID</h3><pre class="highlight"><code class="hljs javascript">documentService.tenant(<span class="hljs-string">'itutorials'</span>).client(<span class="hljs-string">'hybris.itutorials'</span>).data.type(<span class="hljs-string">'comic'</span>).dataId(<span class="hljs-string">'sampleId'</span>).post({
 <span class="hljs-string">"kind"</span>: <span class="hljs-string">"History"</span>,
 <span class="hljs-string">"name"</span>: <span class="hljs-string">"Thorgal"</span>
 }, {
@@ -433,25 +150,12 @@
            }
         }
   )
-</code></pre>
-<pre class="highlight"><code class="hljs javascript">documentService.tenant(<span class="hljs-string">'itutorials'</span>).client(<span class="hljs-string">'hybris.itutorials'</span>).data.type(<span class="hljs-string">'comic'</span>).dataId(<span class="hljs-string">'sampleId'</span>).delete(<span class="hljs-literal">null</span>, {
+</code></pre><pre class="highlight"><code class="hljs javascript">documentService.tenant(<span class="hljs-string">'itutorials'</span>).client(<span class="hljs-string">'hybris.itutorials'</span>).data.type(<span class="hljs-string">'comic'</span>).dataId(<span class="hljs-string">'sampleId'</span>).delete(<span class="hljs-literal">null</span>, {
     headers: {
    <span class="hljs-string">'Authorization'</span>: <span class="hljs-string">'Bearer '</span> + access_token,
   }
 })
-</code></pre>
-
-  </div>
-
-  <div id="notebook1442309032104_hodoripsum_v1">
-    <iframe style="min-height: 430px;" class="notebook__interactive-tutorial u-transition-all width-100 interactive-tutorial" src="" scrolling="no" frameBorder="0" id="1442309032104_hodoripsum_v1"></iframe>
-  </div>
-
-  <div class="notebook__loader">
-
-  </div>
-
-</div> <!-- ---
+</code></pre></div><div id="notebook1442309032104_hodoripsum_v1"><iframe style="min-height: 430px" class="notebook__interactive-tutorial u-transition-all width-100 interactive-tutorial" src="" scrolling="no" frameborder="0" id="1442309032104_hodoripsum_v1"></iframe></div><div class="notebook__loader"></div></div><!-- ---
 ---
 id: 1442309032104_hodoripsum_v1
 title: 'Perform Simple CRUD Operations'
@@ -655,34 +359,10 @@ documentService.tenant('itutorials').client('hybris.itutorials').data.type('comi
   }
 })
 ```
- -->
-      </div>
-
-    
-
-    </div>
-</div>
-    </div>
-
-  </div>
-
-</section>
-
-</div>
-<a href="#content" id="back-top"><span class="glyphicon glyphicon-arrow-up "></span> Back to Top</a>
-
-    <!-- footer scripts -->
-    <script defer="defer"  src="http://yaas.github.io/chewie-sample-result/scripts/devportal-yaas.min.js"></script>
-
-  <script>
-  $(document).ready(function(){
+ --></div></div></div></div></div></section></div><a href="#content" id="back-top"><span class="glyphicon glyphicon-arrow-up"></span> Back to Top</a><!-- footer scripts --><script defer="defer" src="http://yaas.github.io/chewie-sample-result/scripts/devportal-yaas.min.js"></script><script>$(document).ready(function(){
       $('ul.nav li.dropdown').hover(function() {
         $(this).find('.dropdown-menu').stop(true, true).delay(0).fadeIn(0);
       }, function() {
         $(this).find('.dropdown-menu').stop(true, true).delay(0).fadeOut(0);
       });
-  });
-  </script>
-
-  </body>
-</html>
+  });</script></body></html>
