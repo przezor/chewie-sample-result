@@ -1,4 +1,8 @@
-<!doctype html><html><head><script type="text/javascript">function getVariable(string, variable) {
+<!doctype html>
+<html>
+  <head>
+    <script type='text/javascript'>
+       function getVariable(string, variable) {
          var vars = string.split('&');
          for (var i = 0; i < vars.length; i++) {
              var pair = vars[i].split('=');
@@ -22,4 +26,9 @@
 
        var result = getFragmentVariable('access_token') || getQueryVariable('code');
        window.opener.RAML.authorizationSuccess(result);
-       window.close();</script></head><body></body></html>
+       window.close();
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
