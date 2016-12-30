@@ -9014,8 +9014,8 @@ select[multiple].form-readonly-text.form-readonly-text-sm {
 }
 @font-face {
   font-family: "hyicon";
-  src: url('/bower_components/hyTechne/dist/fonts/hyicon.eot?vaoee8');
-  src: url('/bower_components/hyTechne/dist/fonts/hyicon.eot?#iefixvaoee8') format('embedded-opentype'), url('/bower_components/hyTechne/dist/fonts/hyicon.woff?vaoee8') format('woff'), url('/bower_components/hyTechne/dist/fonts/hyicon.ttf?vaoee8') format('truetype'), url('/bower_components/hyTechne/dist/fonts/hyicon.svg?vaoee8#hyicon') format('svg');
+  src: url('http://yaas.github.io/chewie-sample-result/bower_components/hyTechne/dist/fonts/hyicon.eot?vaoee8');
+  src: url('http://yaas.github.io/chewie-sample-result/bower_components/hyTechne/dist/fonts/hyicon.eot?#iefixvaoee8') format('embedded-opentype'), url('http://yaas.github.io/chewie-sample-result/bower_components/hyTechne/dist/fonts/hyicon.woff?vaoee8') format('woff'), url('http://yaas.github.io/chewie-sample-result/bower_components/hyTechne/dist/fonts/hyicon.ttf?vaoee8') format('truetype'), url('http://yaas.github.io/chewie-sample-result/bower_components/hyTechne/dist/fonts/hyicon.svg?vaoee8#hyicon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -11976,11 +11976,11 @@ Syntax for sets:
   background-image: linear-gradient(top, #0486e0 0%, #0b75be 100%);
 }
 .u-background-blueprint::after {
-  background-image: url('/images/featured-items-bg-lines-normal.png');
+  background-image: url('http://yaas.github.io/chewie-sample-result/images/featured-items-bg-lines-normal.png');
   z-index: 0;
 }
 .u-background-blueprint::before {
-  background-image: url('/images/featured-items-bg-lines-dotted.png');
+  background-image: url('http://yaas.github.io/chewie-sample-result/images/featured-items-bg-lines-dotted.png');
   z-index: 1;
 }
 .u-background-blueprint--2 {
@@ -11993,11 +11993,11 @@ Syntax for sets:
   background-image: linear-gradient(top, #1b99ec 0%, #0881d4 100%);
 }
 .u-background-blueprint--2::after {
-  background-image: url('/images/grid.png');
+  background-image: url('http://yaas.github.io/chewie-sample-result/images/grid.png');
   z-index: 0;
 }
 .u-background-blueprint--3 {
-  background: url('/images/blueprint-grid--gray.png');
+  background: url('http://yaas.github.io/chewie-sample-result/images/blueprint-grid--gray.png');
 }
 .u-background-grayish-blue {
   background-color: #e0e9f0;
